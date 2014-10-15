@@ -6,6 +6,4 @@ var ranking = function(n){
 	rank(setting);
 };
 
-ranking();
-
 module.exports = ranking;
