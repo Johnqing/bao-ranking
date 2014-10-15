@@ -1,0 +1,29 @@
+{
+	"name": "bao-ranking",
+	"version": "0.0.1",
+	"readmeFilename": "README.md",
+	"description": "货币基金排行榜top 10",
+	"homepage": "https://github.com/Johnqing/Mucuna",
+	"repository": "https://github.com/Johnqing/Mucuna",
+	"keywords": [
+		"bao",
+		"ranking",
+		"top 10"
+	],
+	"main": "./index.js",
+	"bin": {
+		"baorank": "./bin/baorank"
+	},
+	"dependencies": {
+		"async": "0.9.0",
+		"iconv-lite": "0.4.4",
+		"cli-table": "*",
+		"request": "2.36.0",
+		"optimist": "*"
+	},
+	"devDependencies": {
+
+	},
+	"optionalDependencies": {},
+	"license": "BSD"
+}

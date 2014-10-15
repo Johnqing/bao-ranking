@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+var ranking = require('../index');
+
+var optimist = require('optimist').alias({
+	'a': 'add',
+	'h': 'help',
+	'v': 'version'
+}).boolean(['v', 'h']);
+var cmds = optimist.argv;
+
+var firstCmd = cmds._.splice(0, 1).toString();
+if(firstCmd){
+	return ranking(firstCmd);
+}
