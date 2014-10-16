@@ -9,7 +9,7 @@ var optimist = require('optimist').alias({
 }).boolean(['v', 'h']);
 var cmds = optimist.argv;
 
-var firstCmd = cmds._.splice(0, 1).toString();
-if(firstCmd){
-	return ranking(firstCmd, cmds._.splice(1, 2));
-}
+var one = cmds._.splice(0, 1).toString();
+var two = cmds._[0];
+
+ranking(one, two);

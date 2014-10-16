@@ -10,7 +10,9 @@ npm install -g bao-ranking
 ## 使用
 
 ```
-baorank amount
+baorank amount sort
 ```
 
-`amount`为number类型，表示当前拉取的数量
+`amount`为Number类型，表示当前拉取的数量
+
+`sort`为String类型，表示当前排序规则
