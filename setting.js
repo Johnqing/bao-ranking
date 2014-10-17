@@ -1,3 +1,9 @@
 module.exports = {
-	url: 'http://fund.eastmoney.com/data/rankhandler.aspx?op=ph&dt=hb&ft=&rs=&gs=0&st=desc&pi=1&mg=&dx=1&v=0.7395475923549384'
+	url: 'http://fund.eastmoney.com/data/Fund_JJJZ_Data.aspx',
+	data: {
+		t: "7",
+		page: [1, 5],
+		js: 'reData',
+		sort: ['mui', 'desc']
+	}
 };
